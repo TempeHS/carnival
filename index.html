@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-139550900-1', 'auto');
+ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+<link href="style.css?version=7" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+	<div class="container">
+		<div id="navbar">
+			<nav class="navbar navbar-expand-md navbar-dark info-color">
+				<a class="navbar-brand" href="#"><img height="100" src="https://merryland-h.schools.nsw.gov.au/content/dam/doe/sws/schools/m/merryland-h/2017merrylandshighschoollogo_1495064543188_m.png"/><span>2019 MHS Athletics Carnival</span></a>
+				<button class="navbar-toggler mr-auto ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+							<a class="nav-link waves-effect waves-light" href="#">Home<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link waves-effect waves-light" href="/results">Results</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link waves-effect waves-light" href="/Houses">Social Feed</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link waves-effect waves-light" target="_blank" href="program.pdf">Program</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink"               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Houses</a>
+							<div class="dropdown-menu dropdown-info" aria-labelledby="navbarDropdownMenuLink">
+								<a class="dropdown-item waves-effect waves-light" href="#">Perkins</a>
+								<a class="dropdown-item waves-effect waves-light" href="#">Bradman</a>
+								<a class="dropdown-item waves-effect waves-light" href="#">Sauvage</a>
+								<a class="dropdown-item waves-effect waves-light" href="#">Freeman</a>	
+							</div>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>	  
+		<div id="housegraph" class="row align-items-baseline">
+			<div class="margintop text-center col-12"><h1>House Points</h1></div>
+			<div class="col-3 align-items-baseline">
+				<div class="bradman d-flex align-items-baseline"></div>
+			</div>
+			<div class="col-3 align-items-baseline">
+				<div class="perkins d-flex align-items-baseline"></div>
+			</div>
+			<div class="col-3 align-items-baseline">
+				<div class="freeman d-flex align-items-baseline"></div>
+			</div>
+			<div class="col-3 align-items-baseline">
+				<div class="sauvage d-flex align-items-baseline"></div>
+			</div>	
+		 </div>
+		<div id="housetext" class="row text-center margintop">
+			<div class="col-3">
+				<h6>Bradman</h6>
+				<p><span id="bradmanScore"></span> Pts</p>
+			</div>
+			<div class="col-3">
+				<h6>Perkins</h6>
+				<p><span id="perkinsScore"></span> pts</p>
+			</div>
+			<div class="col-3">
+				<h6>Freeman</h6>
+				<p><span id="freemanScore"></span> pts</p>
+			</div>
+			<div class="col-3">
+				<h6>Sauvage</h6>
+				<p><span id="sauvageScore"></span> pts</p>
+			</div>
+		</div>
+		<hr class="row" />	
+		<div id="currentevents">
+			<div class="col-12 text-center"><h1>Current Events - <span id="cb"></span></h1>
+				<h4 class="col-12 text-center">Track</h4>				
+			<p id="CETL1" class="col-12 text-center"></p>
+				
+			<p id="CETL2" class="col-12 text-center"></p>
+				
+			<p id="CETL3" class="col-12 text-center"></p>
+			
+	
+				
+				<h4>Field</h4>
+				
+				<p id="CEFL1" class="col-12 text-center"></p>
+				<p id="CEFL2" class="col-12 text-center"></p>
+				<p id="CEFL3" class="col-12 text-center"></p>
+				<p id="CEFL4" class="col-12 text-center"></p>
+				<p id="CEFL5" class="col-12 text-center"></p>
+				<p id="CEFL6" class="col-12 text-center"></p>
+				<p id="CEFL7" class="col-12 text-center"></p>
+			
+			</div>
+		</div>
+		<hr class="row" />	  
+		<div id="nextevents">
+			<div class="col-12 text-center"><h1>Next Events</h1>
+			</div>
+		</div>
+		<hr class="row" />	  
+		<div id="recentresults">
+			<div class="col-12 text-center"><h1>Recent Results</h1></div>
+		</div>
+		<hr class="row" />		
+		<div id="footer">
+			<p>This application has been created by MHS Developers, and shared under a <a href="https://github.com/MerrylandsHighSchool/carnival/blob/master/LICENSE" target="_blank">MIT License</a>.</p>
+			<p><a href="https://github.com/MerrylandsHighSchool/carnival" target="_blank"><img height="16" alt="GitHub Logomark" src="GitHub-Mark-64px.png"/> View or fork our code on Github</a></p>
+		</div>
+	</div>	  
+</body>
+	<script type="text/javascript" src="script.js"></script>
+	
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</html>
