@@ -14,10 +14,10 @@ function callXml() {
 function myFunction(xml) {
   var i;
   var xmlDoc = xml.responseXML;
-document.getElementById("bradmanScore").innerHTML = xmlDoc.getElementsByTagName("BRADMAN")[1];
-document.getElementById("perkinsScore").innerHTML = xmlDoc.getElementsByTagName("PERKINS")[1];
-document.getElementById("sauvageScore").innerHTML = xmlDoc.getElementsByTagName("SAUVAGE")[1];
-document.getElementById("freemanScore").innerHTML = xmlDoc.getElementsByTagName("FREEMAN")[1];
+document.getElementById("bradmanScore").innerHTML = xmlDoc.getElementsByTagName("BRADMAN")[0];
+document.getElementById("perkinsScore").innerHTML = xmlDoc.getElementsByTagName("PERKINS")[0];
+document.getElementById("sauvageScore").innerHTML = xmlDoc.getElementsByTagName("SAUVAGE")[0];
+document.getElementById("freemanScore").innerHTML = xmlDoc.getElementsByTagName("FREEMAN")[0];
 }
 
 setInterval( callXml, 1000);
