@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DATA>
-  <CONTENT>
 	<BRADMAN>100</BRADMAN>
 	<PERKINS>70</PERKINS>
 	<FREEMAN>30</FREEMAN>
@@ -31,5 +30,4 @@
 	<R1></R1>
 	<R2></R2>
 	<R3></R3>
-  </CONTENT>
 </DATA>
