@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DATA>
+
+  <CONTENT>
+	<BRADMAN>100</BRADMAN>
+	<PERKINS>70</PERKINS>
+	<FREEMAN>30</FREEMAN>
+	<SAUVAGE>50</SAUVAGE>
+	<CETL1>800m 12 to 17 years male and female</CETL1>
+	<CETL2>100m 12 to 17 years male and female</CETL2>
+	<CETL3>200m 12 to 17 years male and female</CETL3>
+	<CETL4>400m 12 to 17 years male and female</CETL4>
+	<CETL5></CETL5>
+	<CETL6></CETL6>
+	
+	<CEFL1>Javelin 12 years male and female</CEFL1>
+	<CEFL2></CEFL2>
+	<CEFL3></CEFL3>
+	<CEFL4></CEFL4>
+	<CEFL5></CEFL5>
+	<CEFL6></CEFL6>
+
+	
+  </CONTENT>
+  
+</DATA>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<CATALOG>
+  <CD>
+    <TITLE>Delete Yourself34</TITLE>
+    <ARTIST>Atari Teenage Riot</ARTIST>
+    <COVER>https://upload.wikimedia.org/wikipedia/en/3/30/Delete_Yourself%21.jpg</COVER>
+    <COUNTRY>Gernany</COUNTRY>
+    <COMPANY>Digital Hardcore</COMPANY>
+    <PRICE>30</PRICE>
+    <YEAR>1995</YEAR>
+  </CD>
+  <CD>
+    <TITLE>Nine Inch Nails</TITLE>
+    <ARTIST>Bee Gees</ARTIST>
+    <COVER>https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/The_Downward_Spiral.png/220px-The_Downward_Spiral.png</COVER>
+    <COUNTRY>USA</COUNTRY>
+    <COMPANY>Nothing</COMPANY>
+    <PRICE>35</PRICE>
+    <YEAR>1993</YEAR>
+  </CD>
+  <CD>
+    <TITLE>Stay Human</TITLE>
+    <ARTIST>Michael Franti and Spearhead</ARTIST>
+    <COVER>https://upload.wikimedia.org/wikipedia/en/a/a5/Stay_Human_audio_cover.jpg</COVER>
+    <COUNTRY>USA</COUNTRY>
+    <COMPANY>Boo Boo Wax</COMPANY>
+    <PRICE>25</PRICE>
+    <YEAR>2001</YEAR>
+  </CD>
+</CATALOG>
