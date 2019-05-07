@@ -16,10 +16,10 @@ a.navbar-brand {display:inline-flex;break-word!important; white-space:pre-wrap!i
 .navbar-brand span {align-items: center;}
 .navbar-brand img {align-items: center;}
 .navbar-toggler-icon {position: inherit;}
-.bradman {height:100px;background-color:blue;border-top-left-radius:4px;border-top-right-radius:4px;transition: all 0.6s ease-in-out}
-.perkins {height:150px;background-color:gold;border-top-left-radius:4px;border-top-right-radius:4px;transition: all 0.6s ease-in-out}
-.freeman {height:75px;background-color:red;border-top-left-radius:4px;border-top-right-radius:4px;transition: all 0.6s ease-in-out}
-.sauvage {height:50px;background-color:green;border-top-left-radius:4px;border-top-right-radius:4px;transition: all 0.6s ease-in-out}
+.bradman {height:100px;background-color:#18b6f9;border-top-left-radius:4px;border-top-right-radius:4px;transition: all 0.6s ease-in-out}
+.perkins {height:150px;background-color:#efa92f;border-top-left-radius:4px;border-top-right-radius:4px;transition: all 0.6s ease-in-out}
+.freeman {height:75px;background-color:#f2463a;border-top-left-radius:4px;border-top-right-radius:4px;transition: all 0.6s ease-in-out}
+.sauvage {height:50px;background-color:#42ff55;border-top-left-radius:4px;border-top-right-radius:4px;transition: all 0.6s ease-in-out}
 
 h4 {margin-bottom:0px!important;padding-bottom:0px!important}
 
