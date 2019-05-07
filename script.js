@@ -19,11 +19,15 @@ var sScore = Number(xml.responseXML.getElementsByTagName("SAUVAGE")[0].childNode
 var fScore = Number(xml.responseXML.getElementsByTagName("FREEMAN")[0].childNodes[0].nodeValue);
   
 var graphTotal = bScore + pScore + sScore + fScore;
+var bScoreMath = bScore / graphTotal * 150;
+var pScoreMath = pScore / graphTotal * 150;
+var sScoreMath = sScore / graphTotal * 150;
+var fScoreMath = fScore / graphTotal * 150;
   
-document.getElementById("bGraph").style.height = bScore / graphTotal * 150;
-document.getElementById("pGraph").style.height = pScore / graphTotal * 150;
-document.getElementById("sGraph").style.height = sScore / graphTotal * 150;
-document.getElementById("fGraph").style.height = fScore / graphTotal * 150;
+document.getElementById("bGraph").style.height = "'" + bScoreMath + "px'";
+document.getElementById("pGraph").style.height = "'" + pScoreMath + "px'";
+document.getElementById("sGraph").style.height = "'" + sScoreMath + "px'";
+document.getElementById("fGraph").style.height = "'" + fScoreMath + "px'";
 
 document.getElementById("bradmanScore").innerHTML = bScore;
 document.getElementById("perkinsScore").innerHTML = pScore;
