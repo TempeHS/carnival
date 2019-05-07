@@ -12,12 +12,11 @@ function callXml() {
   xhttp.send();
 };
 function myFunction(xml) {
-  var i;
-  var xmlDoc = xml.responseXML;
-document.getElementById("bradmanScore").innerHTML = xmlDoc.getElementsByTagName("BRADMAN")[0];
-document.getElementById("perkinsScore").innerHTML = xmlDoc.getElementsByTagName("PERKINS")[0];
-document.getElementById("sauvageScore").innerHTML = xmlDoc.getElementsByTagName("SAUVAGE")[0];
-document.getElementById("freemanScore").innerHTML = xmlDoc.getElementsByTagName("FREEMAN")[0];
+
+document.getElementById("bradmanScore").innerHTML = xml.responseXML.getElementsByTagName("BRADMAN")[0].childNodes[0].nodeValue;
+document.getElementById("perkinsScore").innerHTML = xml.responseXML.getElementsByTagName("PERKINS")[0].childNodes[0].nodeValue;
+document.getElementById("sauvageScore").innerHTML = xml.responseXML.getElementsByTagName("SAUVAGE")[0].childNodes[0].nodeValue;
+document.getElementById("freemanScore").innerHTML = xml.responseXML.getElementsByTagName("FREEMAN")[0].childNodes[0].nodeValue;
 }
 
 setInterval( callXml, 1000);
