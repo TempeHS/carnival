@@ -18,5 +18,4 @@ document.getElementById("perkinsScore").innerHTML = xml.responseXML.getElementsB
 document.getElementById("sauvageScore").innerHTML = xml.responseXML.getElementsByTagName("SAUVAGE")[0].childNodes[0].nodeValue;
 document.getElementById("freemanScore").innerHTML = xml.responseXML.getElementsByTagName("FREEMAN")[0].childNodes[0].nodeValue;
 }
-
 setInterval( callXml, 1000);
