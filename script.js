@@ -24,17 +24,24 @@ var pScoreMath = pScore / graphTotal * 150;
 var sScoreMath = sScore / graphTotal * 150;
 var fScoreMath = fScore / graphTotal * 150;
   
-document.getElementById("bGraph").style.height = "'" + bScoreMath + "px'";
-document.getElementById("pGraph").style.height = "'" + pScoreMath + "px'";
-document.getElementById("sGraph").style.height = "'" + sScoreMath + "px'";
-document.getElementById("fGraph").style.height = "'" + fScoreMath + "px'";
+document.getElementById("bGraph").style.height = bScoreMath + "px";
+document.getElementById("pGraph").style.height = pScoreMath + "px";
+document.getElementById("sGraph").style.height = sScoreMath + "px";
+document.getElementById("fGraph").style.height = fScoreMath + "px";
 
 document.getElementById("bradmanScore").innerHTML = bScore;
 document.getElementById("perkinsScore").innerHTML = pScore;
 document.getElementById("sauvageScore").innerHTML = sScore;
 document.getElementById("freemanScore").innerHTML = fScore;
   
-
+bScore = xml.responseXML.getElementsByTagName("BRADMAN")[0].childNodes[0].nodeValue;
+pScore = xml.responseXML.getElementsByTagName("PERKINS")[0].childNodes[0].nodeValue;
+sScore = xml.responseXML.getElementsByTagName("SAUVAGE")[0].childNodes[0].nodeValue;
+fScore = xml.responseXML.getElementsByTagName("FREEMAN")[0].childNodes[0].nodeValue;
+document.getElementById("cb").innerHTML = xml.responseXML.getElementsByTagName("CB")[0].childNodes[0].nodeValue;
+document.getElementById("nb").innerHTML = xml.responseXML.getElementsByTagName("NB")[0].childNodes[0].nodeValue;
+document.getElementById("ce").innerHTML = xml.responseXML.getElementsByTagName("CETL1")[0].childNodes[0].nodeValue;
+  
 
 }
 setInterval( callXml, 1000);
