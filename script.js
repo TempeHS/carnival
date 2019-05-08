@@ -19,10 +19,10 @@ var sScore = Number(xml.responseXML.getElementsByTagName("SAUVAGE")[0].childNode
 var fScore = Number(xml.responseXML.getElementsByTagName("FREEMAN")[0].childNodes[0].nodeValue);
   
 var graphTotal = bScore + pScore + sScore + fScore;
-var bScoreMath = bScore / graphTotal * 150;
-var pScoreMath = pScore / graphTotal * 150;
-var sScoreMath = sScore / graphTotal * 150;
-var fScoreMath = fScore / graphTotal * 150;
+var bScoreMath = bScore / graphTotal * 300;
+var pScoreMath = pScore / graphTotal * 300;
+var sScoreMath = sScore / graphTotal * 300;
+var fScoreMath = fScore / graphTotal * 300;
   
 document.getElementById("bGraph").style.height = bScoreMath + "px";
 document.getElementById("pGraph").style.height = pScoreMath + "px";
