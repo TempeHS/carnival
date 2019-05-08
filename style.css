@@ -23,6 +23,10 @@ a.navbar-brand {display:inline-flex;break-word!important; white-space:pre-wrap!i
 
 h4 {margin-bottom:0px!important;padding-bottom:0px!important}
 
+p1 {
+  color: #ffffff
+}
+
 body {color:#fff}
 
 .margintop {margin-top:15px!important}
