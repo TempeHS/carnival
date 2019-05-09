@@ -1,4 +1,6 @@
+var i = 0;
 callXml();
+
 
 function callXml() {
   var xhttp = new XMLHttpRequest();
@@ -44,7 +46,26 @@ pScore = xml.responseXML.getElementsByTagName("PERKINS")[0].childNodes[0].nodeVa
 sScore = xml.responseXML.getElementsByTagName("SAUVAGE")[0].childNodes[0].nodeValue;
 fScore = xml.responseXML.getElementsByTagName("FREEMAN")[0].childNodes[0].nodeValue;
 
-var i = 0;
+//year, month 0-11, date, hour, min
+if(new Date(2019, 4, 15, 10, 25).getTime() < Date.now()) {
+i = 1;
+}
+//year, month 0-11, date, hour, min
+if(new Date(2019, 4, 15, 11, 35).getTime() < Date.now()) {
+i = 2;
+}
+//year, month 0-11, date, hour, min
+if(new Date(2019, 4, 15, 12, 25).getTime() < Date.now()) {
+i = 3;
+}
+//year, month 0-11, date, hour, min
+if(new Date(2019, 4, 15, 13, 15).getTime() < Date.now()) {
+i = 4;
+}
+//year, month 0-11, date, hour, min
+if(new Date(2019, 4, 15, 14, 5).getTime() < Date.now()) {
+i = 5;
+}
 
 document.getElementById("cb").innerHTML = xml.responseXML.getElementsByTagName("CB")[i].childNodes[i].nodeValue;
 document.getElementById("nb").innerHTML = xml.responseXML.getElementsByTagName("NB")[i].childNodes[i].nodeValue;
