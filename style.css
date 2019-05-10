@@ -24,8 +24,14 @@ a.navbar-brand {display:inline-flex;break-word!important; white-space:pre-wrap!i
 h4 {margin-bottom:0px!important;padding-bottom:0px!important}
 
 .blacktext {
-  color: #ffffff
+  color: #000;
 }
+
+p {
+margin-bottom: 4px;
+
+}
+
 
 body {color:#fff}
 
