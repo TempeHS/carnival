@@ -1,4 +1,4 @@
-var i = 5;
+var i = 0;
 var x = 0;
 callXml();
 
