@@ -67,16 +67,16 @@ if(new Date(2019, 4, 15, 14, 5).getTime() < Date.now()) {
 i = 5;
 }
 
-document.getElementById("cb").innerHTML = xml.responseXML.getElementsByTagName("CB")[i].childNodes[i].nodeValue;
-document.getElementById("nb").innerHTML = xml.responseXML.getElementsByTagName("NB")[i].childNodes[i].nodeValue;
-document.getElementById("cetl1").innerHTML = xml.responseXML.getElementsByTagName("CETL1")[i].childNodes[i].nodeValue;
-document.getElementById("cetl2").innerHTML = xml.responseXML.getElementsByTagName("CETL2")[i].childNodes[i].nodeValue;
-document.getElementById("cetl3").innerHTML = xml.responseXML.getElementsByTagName("CETL3")[i].childNodes[i].nodeValue;
+document.getElementById("cb").innerHTML = xml.responseXML.getElementsByTagName("CB")[i].childNodes[i];
+document.getElementById("nb").innerHTML = xml.responseXML.getElementsByTagName("NB")[i].childNodes[i];
+document.getElementById("cetl1").innerHTML = xml.responseXML.getElementsByTagName("CETL1")[i].childNodes[i];
+document.getElementById("cetl2").innerHTML = xml.responseXML.getElementsByTagName("CETL2")[i].childNodes[i];
+document.getElementById("cetl3").innerHTML = xml.responseXML.getElementsByTagName("CETL3")[i].childNodes[i];
   
-document.getElementById("cefl1").innerHTML = xml.responseXML.getElementsByTagName("CEFL1")[i].childNodes[i].nodeValue;
-document.getElementById("cefl2").innerHTML = xml.responseXML.getElementsByTagName("CEFL2")[i].childNodes[i].nodeValue;
-document.getElementById("cefl3").innerHTML = xml.responseXML.getElementsByTagName("CEFL3")[i].childNodes[i].nodeValue;
-document.getElementById("cefl4").innerHTML = xml.responseXML.getElementsByTagName("CEFL4")[i].childNodes[i].nodeValue;
+document.getElementById("cefl1").innerHTML = xml.responseXML.getElementsByTagName("CEFL1")[i].childNodes[i];
+document.getElementById("cefl2").innerHTML = xml.responseXML.getElementsByTagName("CEFL2")[i].childNodes[i];
+document.getElementById("cefl3").innerHTML = xml.responseXML.getElementsByTagName("CEFL3")[i].childNodes[i];
+document.getElementById("cefl4").innerHTML = xml.responseXML.getElementsByTagName("CEFL4")[i].childNodes[i];
 document.getElementById("cefl5").innerHTML = xml.responseXML.getElementsByTagName("CEFL5")[i].childNodes[i].nodeValue;
 document.getElementById("cefl6").innerHTML = xml.responseXML.getElementsByTagName("CEFL6")[i].childNodes[i].nodeValue;
 document.getElementById("cefl7").innerHTML = xml.responseXML.getElementsByTagName("CEFL7")[i].childNodes[i].nodeValue;
