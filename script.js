@@ -95,4 +95,4 @@ document.getElementById("nefl7").innerHTML = xml.responseXML.getElementsByTagNam
   
 
 }
-setInterval( callXml, 10000);
+setInterval( callXml, 30000);
