@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DATA>
   <CONTENT>
-	<BRADMAN>0</BRADMAN>
-	<PERKINS>0</PERKINS>
-	<FREEMAN>0</FREEMAN>
-	<SAUVAGE>0</SAUVAGE>
+	<BRADMAN>50</BRADMAN>
+	<PERKINS>100</PERKINS>
+	<FREEMAN>25</FREEMAN>
+	<SAUVAGE>75</SAUVAGE>
 	<CB>Block A</CB>
 	<NB>Block B</NB>
 	<CETL1>800m 12 to 17 years male and female</CETL1>
